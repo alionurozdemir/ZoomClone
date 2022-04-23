@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
             );
           }
           if (snapshot.hasData) {
-            print("Data geldi");
+            print("Data geldi ");
             return const HomeScreen();
           }
 
