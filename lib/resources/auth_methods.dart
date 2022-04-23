@@ -26,7 +26,6 @@ class AuthMethods {
       UserCredential userCredential = await _auth.signInWithCredential(credential);
 
       User? user = userCredential.user;
-      
 
       if (user != null) {
         if (userCredential.additionalUserInfo!.isNewUser) {
