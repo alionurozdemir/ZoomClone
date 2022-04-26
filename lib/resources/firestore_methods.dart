@@ -16,6 +16,7 @@ class FirestoreMethods {
           .collection('meetings')
           .add({'meetingName': meetingName, 'createdAt': DateTime.now()});
     } catch (e) {
+      // ignore: avoid_print
       print(e);
     }
   }

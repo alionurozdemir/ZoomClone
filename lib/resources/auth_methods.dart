@@ -48,6 +48,7 @@ class AuthMethods {
     try {
       _auth.signOut();
     } catch (e) {
+      // ignore: avoid_print
       print(e);
     }
   }
