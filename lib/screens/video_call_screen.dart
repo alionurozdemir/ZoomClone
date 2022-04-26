@@ -22,7 +22,6 @@ class _VideoCallScreenState extends State<VideoCallScreen> {
 
   @override
   void initState() {
-    // TODO: implement initState
     meetingIdcController = TextEditingController();
     nameController = TextEditingController(text: _authMethods.user.displayName);
     super.initState();

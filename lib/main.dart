@@ -9,7 +9,7 @@ import 'package:zoom_clone_tutorial/utils/colors.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -37,7 +37,6 @@ class MyApp extends StatelessWidget {
             );
           }
           if (snapshot.hasData) {
-            print("Data geldi ");
             return const HomeScreen();
           }
 
