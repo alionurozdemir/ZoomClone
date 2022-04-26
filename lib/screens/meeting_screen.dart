@@ -16,7 +16,7 @@ class MeetingScreen extends StatelessWidget {
   }
 
   joinMeeting(BuildContext context) {
-    Navigator.pushNamed(context, "/videocall");
+    Navigator.pushNamed(context, "/video-call");
   }
 
   @override
